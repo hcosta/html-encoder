@@ -1,0 +1,54 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <title>htmlencoder online - Parse your html code online</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+    <meta http-equiv="description" content="This web page encodes and decode a string using HTML entity encoding">
+    <meta http-equiv="keywords" content="html, entities, htmlentities, encode, parser, online">
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script type="text/javascript"> // analytics</script>
+</head>
+<body>
+
+    <a href="https://github.com/hcosta/htmlencoder"><img style="position: absolute; top: 0; right: 0; border: 0;z-index:1" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+
+    <div class="container">
+
+        <br>
+        <nav class="navbar navbar-inverse col-lg-8 col-lg-offset-2" role="navigation" style="margin-bottom:0px;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href=".">htmlencoder decoder online</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="col-lg-8 col-lg-offset-2">
+
+            <h3>Decoded HTML</h3>
+            <textarea id="source" class="form-control" rows="5"></textarea>
+            <br> <button id="sourceBtn" class="btn btn-primary">Select all</button> <button class="btn reset">Reset</button>
+
+            <h3>Encoded HTML <span class="little">(also works inverted)</span></h3>
+            <textarea id="result" class="form-control" rows="5"></textarea>
+            <br> <button id="resultBtn" class="btn btn-primary">Select all</button> <button class="btn reset">Reset</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="col-sm-12 text-right" style="padding: 15px;">
+                <span>by <a href="http://hcosta.info" target="_blank">Héctor Costa Guzmán</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="js/parser.js"></script>
+</body>
+</html>

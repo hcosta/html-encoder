@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+textarea{
+    font-family: 'Source Code Pro', sans-serif;
+    border:2px solid #CCC !important;
+}
+
+body {
+    padding-bottom: 75px;
+}
+
+
+footer{
+    position: fixed;
+    border-top:2px solid #666;
+    bottom:0;
+    width:100%;
+    background:#EEE;
+}
+
+#resultBtn, #sourceBtn{
+    float: right;
+}
+
+.reset{
+    float: right;
+    margin-right:15px;
+}
+
+.little{
+    font-size: 14px;
+}
