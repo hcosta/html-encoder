@@ -1,3 +1,8 @@
+/**
+ * Héctor Costa Guzmán
+ * hcosta.info
+ */
+
 function htmlEscape(str) {
     return String(str)
             .replace(/&/g, '&amp;')
